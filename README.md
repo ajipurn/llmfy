@@ -4,7 +4,7 @@
 
   <a href="https://img.shields.io/github/actions/workflow/status/llmfy-labs/llmfy-python/release.yml">![llmfy](https://img.shields.io/github/actions/workflow/status/llmfy-labs/llmfy-python/release.yml?style=for-the-badge&logo=pypi&logoColor=blue&label=publish
   )</a>
-  <a href="https://pypi.org/project/llmfy/0.11.0">![llmfy](https://img.shields.io/badge/llmfy-v0.11.0-31CA9C.svg?style=for-the-badge&logo=pypi&logoColor=yellow)</a>
+  <a href="https://pypi.org/project/llmfy/0.1.0">![llmfy](https://img.shields.io/badge/llmfy-v0.1.0-31CA9C.svg?style=for-the-badge&logo=pypi&logoColor=yellow)</a>
   <a href="https://pypi.org/project/llmfy/">![llmfy](https://img.shields.io/pypi/v/llmfy?style=for-the-badge&label=latest&labelColor=691DC6&color=B77309)</a>
   <a href="">![python](https://img.shields.io/badge/python->=3.11-4392FF.svg?style=for-the-badge&logo=python&logoColor=4392FF)</a>
 
@@ -28,6 +28,7 @@ See complete documentation at [https://llmfy.readthedocs.io/](https://llmfy.read
       - PostgreSQL (async: [asyncpg](https://pypi.org/project/asyncpg/), sync: [psycopg2](https://pypi.org/project/psycopg2/)) — 🔸 optional.
       - MySQL (async: [aiomysql](https://pypi.org/project/aiomysql/), sync: [pymysql](https://pypi.org/project/PyMySQL/)) — 🔸 optional.
       - SQLite (async: [aiosqlite](https://pypi.org/project/aiosqlite/), sync: built-in) — 🔸 optional.
+      - Async drivers also need `pip install "sqlalchemy[asyncio]"` (for `greenlet`); sync drivers don't.
 
 ### Using UV
 ```sh
